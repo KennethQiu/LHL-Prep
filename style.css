@@ -1,0 +1,69 @@
+body{
+	background-color: #f2f2f2;
+	margin-left: 100px;
+	width: 800px;
+}
+
+section{
+	background-color: #fafafa;
+	padding:20px;
+	margin:20px;
+	box-shadow: 5px 5px 5px grey;
+}
+
+h2{
+	font-family:sans-serif;
+}
+
+li{
+	margin:10px;
+}
+
+#title{
+	display:inline-block;
+}
+
+#stars{
+	display: inline-block;
+	margin-left:10px;
+}
+
+.star{
+	transition: transform .5s;
+}
+
+.star:hover{
+	transform:rotate(360deg);
+}
+
+#author{
+	display: inline-block;
+}
+
+#author_photo{
+	position:center;
+	height: 120px;
+	width: 120px;
+	border-radius: 50%;
+	background-clip: padding-box;
+	overflow: hidden;
+}
+
+#logo{
+	float: left;
+}
+
+#quote{
+	display: inline-block;
+	font-style:italic;
+	width: 400px;
+	margin-left: 50px;
+	position: relative;
+	top: -50px;
+	font-size: 1.2em;
+}
+
+#Angie{
+	position: relative;
+	left: -10px
+}
