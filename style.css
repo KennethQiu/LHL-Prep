@@ -19,6 +19,10 @@ li{
 	margin:10px;
 }
 
+.fade{
+	opacity: 0.2;
+}
+
 #title{
 	display:inline-block;
 }
