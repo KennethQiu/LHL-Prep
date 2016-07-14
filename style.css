@@ -32,11 +32,11 @@ li{
 	margin-left: 10px;
 }
 
-.star{
+#stars img{
 	transition: transform 0.5s;
 }
 
-.star:hover{
+#stars img:hover{
 	transform: rotate(360deg);
 }
 
